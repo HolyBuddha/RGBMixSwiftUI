@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var redSliderValue = Double.random(in: 0...255)
-    @State var greenSliderValue = Double.random(in: 0...255)
-    @State var blueSliderValue = Double.random(in: 0...255)
+    
+    @State private var redSliderValue = Double(Int.random(in: 0...255))
+    @State private var greenSliderValue = Double(Int.random(in: 0...255))
+    @State private var blueSliderValue = Double(Int.random(in: 0...255))
     
     var body: some View {
         ZStack() {
@@ -18,13 +19,13 @@ struct ContentView: View {
                 .opacity(0.2)
                 .ignoresSafeArea()
             VStack(alignment: .center) {
-                ShowColorView(color: .red)
+                ShowColorView(redColor: redSliderValue, greenColor: greenSliderValue, blueColor: blueSliderValue)
                     .padding(.top, 40)
                     .padding(.bottom)
                 VStack(alignment: .center, spacing: -15) {
-                        ColorSliderView(value: redSliderValue)
-                        ColorSliderView(value: greenSliderValue)
-                        ColorSliderView(value: blueSliderValue)
+                    ColorSliderView(valueFromSlider: $redSliderValue, sliderColor: .red)
+                    ColorSliderView(valueFromSlider: $greenSliderValue, sliderColor: .green)
+                    ColorSliderView(valueFromSlider: $blueSliderValue, sliderColor: .blue)
                 }
                     Spacer()
                 }
@@ -38,10 +39,5 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-//extension ContentView {
-//    func doubleToString(_ number: Double) -> String {
-//        let result = String(format: "%.0f", number)
-//        return result
-//    }
-//}
+
 

@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct TextFieldView: View {
-    @State var value: String
+    @State var value: Double
     
     var body: some View {
-        TextField("", text: $value)
+        TextField("", value: $value, format: .number)
             .frame(width: 40, height: 30)
-            .multilineTextAlignment(.center)
-            .background(.white)
-            .cornerRadius(4)
+            .textFieldStyle(.roundedBorder)
+            .keyboardType(.numberPad)
 }
 }
 
 struct TextFieldView_Previews: PreviewProvider {
     static var previews: some View {
-        TextFieldView(value: "30")
+        TextFieldView(value: 30)
     }
 }
