@@ -13,7 +13,6 @@
 		128FDF5C272DCA8600809C25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128FDF5B272DCA8600809C25 /* Preview Assets.xcassets */; };
 		128FDF63272DCF9F00809C25 /* ShowColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FDF62272DCF9F00809C25 /* ShowColorView.swift */; };
 		128FDF65272DDCE100809C25 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FDF64272DDCE100809C25 /* ColorSliderView.swift */; };
-		128FDF67272DEE6A00809C25 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FDF66272DEE6A00809C25 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		128FDF5B272DCA8600809C25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		128FDF62272DCF9F00809C25 /* ShowColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowColorView.swift; sourceTree = "<group>"; };
 		128FDF64272DDCE100809C25 /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
-		128FDF66272DEE6A00809C25 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 				128FDF54272DCA8500809C25 /* RGBMixSwiftUIApp.swift */,
 				128FDF56272DCA8500809C25 /* ContentView.swift */,
 				128FDF64272DDCE100809C25 /* ColorSliderView.swift */,
-				128FDF66272DEE6A00809C25 /* TextFieldView.swift */,
 				128FDF62272DCF9F00809C25 /* ShowColorView.swift */,
 				128FDF58272DCA8600809C25 /* Assets.xcassets */,
 				128FDF5A272DCA8600809C25 /* Preview Content */,
@@ -147,7 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				128FDF57272DCA8500809C25 /* ContentView.swift in Sources */,
-				128FDF67272DEE6A00809C25 /* TextFieldView.swift in Sources */,
 				128FDF55272DCA8500809C25 /* RGBMixSwiftUIApp.swift in Sources */,
 				128FDF65272DDCE100809C25 /* ColorSliderView.swift in Sources */,
 				128FDF63272DCF9F00809C25 /* ShowColorView.swift in Sources */,

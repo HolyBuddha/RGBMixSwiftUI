@@ -8,30 +8,23 @@
 import SwiftUI
 
 struct ColorSliderView: View {
-   
+    
     @Binding var valueFromSlider: Double
     @State var sliderColor: Color
     
+    
     var body: some View {
-        HStack(alignment: .center, spacing: 10) {
+        HStack(alignment: .center, spacing: 5) {
             Text(String(format: "%.0f", valueFromSlider))
-                .frame(width: 40, height: 30)
+                .frame(width: 50)
             Slider(value: $valueFromSlider, in: 0...255, step: 1)
                 .accentColor(sliderColor)
             TextField("", value: $valueFromSlider, format: .number)
                 .textFieldStyle(.roundedBorder)
                 .frame(width: 50)
+                .keyboardType(.numberPad)
+                .padding()
+                .shadow(radius: 5)
         }
-        .padding()
-        .shadow(radius: 5)
     }
 }
-
-//struct ColorSlider_Previews:
-//    PreviewProvider{
-//
-//    static var previews: some View {
-//        ColorSliderView(valueFromSlider: 90.0, sliderColor: .red)
-//}
-//}
-

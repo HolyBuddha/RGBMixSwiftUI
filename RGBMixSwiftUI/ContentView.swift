@@ -24,7 +24,7 @@ struct ContentView: View {
                     .padding(.bottom)
                 VStack(alignment: .center, spacing: -15) {
                     ColorSliderView(valueFromSlider: $redSliderValue, sliderColor: .red)
-                    ColorSliderView(valueFromSlider: $greenSliderValue, sliderColor: .green)
+                    ColorSliderView(valueFromSlider: $greenSliderValue, sliderColor: .green) 
                     ColorSliderView(valueFromSlider: $blueSliderValue, sliderColor: .blue)
                 }
                     Spacer()
