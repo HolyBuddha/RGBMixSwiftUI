@@ -13,6 +13,7 @@
 		128FDF5C272DCA8600809C25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128FDF5B272DCA8600809C25 /* Preview Assets.xcassets */; };
 		128FDF63272DCF9F00809C25 /* ShowColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FDF62272DCF9F00809C25 /* ShowColorView.swift */; };
 		128FDF65272DDCE100809C25 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FDF64272DDCE100809C25 /* ColorSliderView.swift */; };
+		12CCF9F22735339400591EC5 /* ColorValueTFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCF9F12735339400591EC5 /* ColorValueTFView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		128FDF5B272DCA8600809C25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		128FDF62272DCF9F00809C25 /* ShowColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowColorView.swift; sourceTree = "<group>"; };
 		128FDF64272DDCE100809C25 /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
+		12CCF9F12735339400591EC5 /* ColorValueTFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTFView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				128FDF54272DCA8500809C25 /* RGBMixSwiftUIApp.swift */,
 				128FDF56272DCA8500809C25 /* ContentView.swift */,
 				128FDF64272DDCE100809C25 /* ColorSliderView.swift */,
+				12CCF9F12735339400591EC5 /* ColorValueTFView.swift */,
 				128FDF62272DCF9F00809C25 /* ShowColorView.swift */,
 				128FDF58272DCA8600809C25 /* Assets.xcassets */,
 				128FDF5A272DCA8600809C25 /* Preview Content */,
@@ -145,6 +148,7 @@
 			files = (
 				128FDF57272DCA8500809C25 /* ContentView.swift in Sources */,
 				128FDF55272DCA8500809C25 /* RGBMixSwiftUIApp.swift in Sources */,
+				12CCF9F22735339400591EC5 /* ColorValueTFView.swift in Sources */,
 				128FDF65272DDCE100809C25 /* ColorSliderView.swift in Sources */,
 				128FDF63272DCF9F00809C25 /* ShowColorView.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

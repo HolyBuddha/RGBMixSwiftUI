@@ -16,7 +16,11 @@ struct ShowColorView: View {
         Rectangle()
             .cornerRadius(10)
             .frame(width: 300, height: 150)
-            .foregroundColor(Color(red: redColor/255, green: greenColor/255, blue: blueColor/255))
+            .foregroundColor(
+                Color(
+                    red: redColor / 255,
+                    green: greenColor / 255,
+                    blue: blueColor / 255))
             .shadow(color: .gray, radius: 10)
             .overlay(
                 RoundedRectangle(cornerRadius: 10)
